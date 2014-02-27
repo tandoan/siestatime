@@ -3,6 +3,9 @@ modules = {
         resource url:'js/application.js'
     }
     angular {
-        resource url:'js/lib/angualar.min.js'
+        resource url:'js/lib/angular.min.js'
     }
+    app {
+        resource url:'js/app.js'
+    } 
 }

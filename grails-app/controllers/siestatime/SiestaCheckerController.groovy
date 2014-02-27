@@ -3,6 +3,7 @@ package siestatime
 class SiestaCheckerController {
 
     def index() { 
+    	render(view: "index")
     }
 
     def check() { 
