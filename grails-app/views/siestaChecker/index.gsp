@@ -10,7 +10,7 @@
 			<div>
 				<h3>Is it time for siesta?</h3>
 				<h1>{{isSiesta}}</h1>
-
+				<button ng-click="recheck()">Check again...</button>
 			</div>
 		</div>
 	</body>
