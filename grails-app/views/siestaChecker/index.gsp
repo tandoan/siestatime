@@ -10,16 +10,7 @@
 			<div>
 				<h3>Is it time for siesta?</h3>
 				<h1>{{isSiesta}}</h1>
-				<h1>{{nnn}}</h1>
-				<h1>{{ 1 + 2}}</h1>
-				<hr/>
 
-				
-
-				<!-- // change content inside, from AngularJS Templates ... -->
-				<div ng-view>
-				</div>
-				<hr/>
 			</div>
 		</div>
 	</body>

@@ -3,9 +3,11 @@
 // Declare app level module which depends on filters, and services
 var isSiestaApp = angular.module('isSiestaApp', []);
 
-isSiestaApp.controller('SiestaCtrl', function($scope) {
-	$scope.isSiesta = false;
-	$scope.nnn = 'Hey buddy';
+isSiestaApp.controller('SiestaCtrl', function($scope, $http) {
+	//$scope.isSiesta = true;
+	$http.get('/siestatime/siestaChecker/check/').success(function(data) {
+    	$scope.isSiesta = data.is_siesta;
+	});
 });
 
 

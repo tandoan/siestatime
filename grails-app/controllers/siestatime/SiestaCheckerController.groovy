@@ -8,7 +8,7 @@ class SiestaCheckerController {
 
     def check() { 
 		render(contentType: "application/json") {
-			is_siesta = false
+			is_siesta = true
 		}
     }
 }
