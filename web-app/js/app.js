@@ -1,7 +1,14 @@
 'use strict';
 
 // Declare app level module which depends on filters, and services
-angular.module('app', []);
+var isSiestaApp = angular.module('isSiestaApp', []);
+
+isSiestaApp.controller('SiestaCtrl', function($scope) {
+	$scope.isSiesta = false;
+	$scope.nnn = 'Hey buddy';
+});
+
+
 /*
 angular.module('app', [
 	'ngRoute', // since AngularJS-1.2.x ...

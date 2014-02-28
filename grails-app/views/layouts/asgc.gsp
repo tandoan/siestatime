@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="no-js" ng-app="app">
+<html lang="en" class="no-js" ng-app="isSiestaApp">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="${resource(dir: 'css', file: 'mobile.css')}" type="text/css">
 		<g:layoutHead/>
         <r:require modules="angular"/>
+        <r:require modules="angular_route"/>
 		<r:require modules="app"/>
 		<r:layoutResources />
 	</head>
